@@ -1,0 +1,10 @@
+.align {
+  
+  &__text {
+    &-verticle {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  }
+}

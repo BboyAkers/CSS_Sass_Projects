@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss css/style.css  --watch"
+    "compile:sass": "node-sass sass/main.scss css/style.css  --watch",
+    "server": "live-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "live-server": "^1.2.2",
+    "node-sass": "^7.0.1"
   }
 }

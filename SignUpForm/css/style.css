@@ -18,13 +18,20 @@
     width: 100%; }
   .card--button {
     width: 100%;
-    padding: .75em 0 .75em 0; }
+    padding: .75em 0 .75em 0;
+    border: none; }
+
+.text--white {
+  color: #fff; }
 
 .background--white {
   background-color: #fff; }
 
 .background--blue {
   background-color: #6055a5; }
+
+.background--green {
+  background-color: #38cc8c; }
 
 .background--darkBlue {
   background-color: #3e3c49; }

@@ -1,8 +1,8 @@
 $color-white: #fff;
-$color-blue: hsl(248, 32%, 49%);
+$color-accent-blue: hsl(248, 32%, 49%);
+$color-primary-green: hsl(154, 59%, 51%);
 $color-neutral-dark-blue: hsl(249, 10%, 26%);
 $color-neutral-grayish-blue: hsl(246, 25%, 77%);
-;
 
 *,
 *::before,
@@ -30,6 +30,14 @@ $color-neutral-grayish-blue: hsl(246, 25%, 77%);
   &--button {
     width: 100%;
     padding: .75em 0 .75em 0;
+    border: none;
+    // box-shadow: 2px 4px $color-primary-green;
+  }
+}
+
+.text {
+  &--white {
+    color: $color-white;
   }
 }
 
@@ -40,12 +48,17 @@ $color-neutral-grayish-blue: hsl(246, 25%, 77%);
   }
   
   &--blue {
-    background-color: $color-blue;
+    background-color: $color-accent-blue;
+  }
+  
+  &--green {
+    background-color: $color-primary-green;
   }
 
   &--darkBlue {
     background-color: $color-neutral-dark-blue;
   }
+  
   &--grayishBlue {
     background-color: $color-neutral-grayish-blue;
   }

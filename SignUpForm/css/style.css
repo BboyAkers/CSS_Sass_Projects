@@ -10,6 +10,28 @@
   align-items: center;
   justify-content: center; }
 
+.card {
+  padding: 1.5em; }
+  .card--input {
+    padding: .5em 0 .5em 0;
+    margin-bottom: 1em;
+    width: 100%; }
+  .card--button {
+    width: 100%;
+    padding: .75em 0 .75em 0; }
+
+.background--white {
+  background-color: #fff; }
+
+.background--blue {
+  background-color: #6055a5; }
+
+.background--darkBlue {
+  background-color: #3e3c49; }
+
+.background--grayishBlue {
+  background-color: #b9b6d3; }
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +46,13 @@
 @media (max-width: 680px) {
   .container {
     display: block; }
-    .container .col {
-      width: 100%;
-      margin: 0 0 10px 0;
-      height: 100vh; } }
+  .container .col {
+    margin: 0 0 10px 0;
+    height: 100vh; } }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }

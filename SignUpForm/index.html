@@ -10,18 +10,6 @@
   <link rel="stylesheet" href="css/style.css">
 
   <title>Frontend Mentor | Intro component with sign up form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
@@ -34,18 +22,18 @@
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div class="card background--blue">
         <p><strong></strong>Try it free 7</strong> days then $20/mo. thereafter</p>
       </div>
-      <div class="card">
+      <div class="card background--white">
         <form action="" method="post">
-          <input type="text" name="firstname" placeholder="First Name" class="input-text">
-          <input type="text" name="lastname" placeholder="Last Name" class="input-text">
-          <input type="email" name="emailaddress" placeholder="Email Address" class="input-text">
-          <input type="password" name="password" placeholder="Password" class="input-text">
+          <input type="text" name="firstname" placeholder="First Name" class="card--input">
+          <input type="text" name="lastname" placeholder="Last Name" class="card--input">
+          <input type="email" name="emailaddress" placeholder="Email Address" class="card--input">
+          <input type="password" name="password" placeholder="Password" class="card--input">
 
-          <button type="submit">Claim your free trial</button>
-          <small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
+          <button type="submit" class="card--button">Claim your free trial</button>
+          <p><small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small></p>
         </form>
       </div>
     </div>

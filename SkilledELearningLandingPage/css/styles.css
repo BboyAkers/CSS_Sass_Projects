@@ -1,31 +1,9 @@
-.flex__container {
-  display: flex;
-}
-.flex--grow-1 {
-  flex-grow: 1;
-}
-.flex--grow-2 {
-  flex-grow: 2;
-}
-.flex--grow-3 {
-  flex-grow: 3;
-}
-.flex--grow-4 {
-  flex-grow: 4;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .display--is-none {
   display: none;
-}
-
-.button {
-  display: inline-block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  border-radius: 10px;
-  border-color: #13183F;
-  border-style: solid;
-  border-width: 1px;
 }
 
 /* Footer styles */

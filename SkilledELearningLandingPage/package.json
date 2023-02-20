@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "sass --watch scss/main.scss:css/style.css",
-    "watch:sass": "sass --source-map -w scss/main.scss css/styles.css",
+    "watch:css": "npx tailwindcss -i ./css/styles.css -o ./dist/output.css --watch",
     "start": "live-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.2",
-    "sass": "^1.57.1"
+    "tailwindcss": "^3.2.7"
   }
 }
